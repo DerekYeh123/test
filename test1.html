@@ -8,7 +8,7 @@
 	<style type="text/css">
 	.head1{
 		font-weight:bold;font-size:30px;
-		text-align:center;padding:15px;
+		text-align:left;padding:15px;
 		}
 	.head2{
 		font-weight:bold;font-size:20px;
@@ -16,23 +16,33 @@
 		}
 	.head3{
 		font-weight:bold;font-size:15px;
-		text-align:center;padding:0px;
+		text-align:left;padding:10px;
 		}
 	.content{
-		width:1000px;margin-left;
+		width:500px;margin-left;
 	}
 	.box{
-		position:absolute;right:0px;top:0px;
-		width:400px;padding:10px;margin:10px;
-		background-color:green;
+		width:460px;padding:10px;margin:10px;
 		display:inline-block;vertical-align:top;
-		text-align:center;heigt:150px;line-height:30px;
+		heigt:350px;line-height:30px;
 	}
 	.box2{
-		width:460px;padding:10px;margin:10px;
-		background-color:white;
+		height:200px;
+		width:360px;padding:10px;margin:10px;
 		display:inline-block;vertical-align:top;
-		text-align:center;heigt:150px;line-height:30px;
+		;heigt:300px;line-height:30px;
+	}
+	.boxpic{
+		height:170px;
+		width:210px;padding:10px;margin:10px;
+		display:inline-block;vertical-align:top;
+		;heigt:300px;line-height:30px;
+	}
+	.boxname{
+		height:200px;
+		width:460px;padding:10px;margin:10px;
+		display:inline-block;vertical-align:top;
+		;heigt:300px;line-height:30px;
 	}
 	.title{font-weight:bold}
 	@media screen and (max-width:600px){
@@ -41,30 +51,32 @@
 	}
 	</style>
 	</head>	
-<body>
+<body style="margin:0px;background-color:#eeeeee;">
+
 <div class="resume">
   <div class="left">
+    <div class="boxpic">
+  	  <img src="https://github.com/DerekYeh123/test/blob/main/%E5%A4%A7%E9%A0%AD%E8%B2%BC.jpg?raw=true"
+     style="width:150px;position:absolute;left:50px;top:50px;"/>
+  </div>
+  <div class="boxname">
     <div class="head1">葉修良 DerekYeh</div>
     <div class="head3">icexmax83407@gmail.com/ 0926-765808 </div>
-	  <div class="box"> 
-	  <img src="https://github.com/DerekYeh123/test/blob/main/%E5%A4%A7%E9%A0%AD%E8%B2%BC.jpg?raw=true" width="100";
-     position:absolute;left:200px;top:50px;>
-	  </div>
-    <div class="content">我是Derek，目前28歲，居住台北市。
-	    個性活潑樂觀、喜歡挑戰自我及團隊合作。 </div>
-    <div class="content">有三年工作經驗於中鼎工程擔任儀表控制工程師，
-	    工作內容囊括工廠現場儀表設計到控制室規劃等等。</div>
-    <hr>
+    <div class="content">我是Derek，目前28歲，居住台北市</div>
+	<div class="content">個性活潑樂觀、喜歡挑戰自我及團隊合作。 </div>
+    <div class="content">有三年工作經驗於中鼎工程擔任儀表控制工程師，</div>
+	<div class="conten">工作內容囊括工廠現場儀表設計到控制室規劃等等。</div>
+	</div>
+	<hr>
      <div class="box2">
     <div class="head2">學歷 Education</div>
-     <div>中央大學化材所 2018年 碩士畢業</h5>
-     <div>臺北科大化工系 2016年 學士畢業</h5>
+     <div>中央大學化材所 2018年 碩士畢業</div>
+     <div>臺北科大化工系 2016年 學士畢業</div>
     <div class="buttons">
       <a class="btn fill" href="https://raw.githubusercontent.com/DerekYeh123/test/main/%E7%A0%94%E7%A9%B6%E6%89%80_%E4%B8%AD%E5%A4%AE%E5%8C%96%E6%9D%90%E6%88%90%E7%B8%BE%E5%96%AE_%E8%91%89%E4%BF%AE%E8%89%AF.pdf" target="_blank">中央大學化材所成績單</a>
       <a class="btn" href="https://raw.githubusercontent.com/DerekYeh123/test/main/%E5%A4%A7%E5%AD%B8_%E5%8C%97%E7%A7%91%E5%A4%A7%E5%8C%96%E5%B7%A5%E6%88%90%E7%B8%BE%E5%96%AE_%E8%91%89%E4%BF%AE%E8%89%AF.pdf" target="_blank">北科大化工系成績單</a>
     </div>
-    <div class="block">
-	     </div>
+	</div>
 	<div class="box2">
 		  <div class="head2">加分項目 Additional Information</div>
        <ul>
@@ -75,6 +87,7 @@
       </ul>
 	     </div>
     <hr>
+	<div class="box">
       <div class="head2">工作經驗 Word Experience</div>
       <ul class="listExperience">
         <li class="year">2019.05~2022.05 中鼎工程儀控部 設計工程師
@@ -85,16 +98,8 @@
 		<li>新竹漢陽焚化爐報價案系統設計/系統規劃</li>
           </ul>
         </li>
+		</div>
 		</ul>
-	<hr>
-      <div class="head2">加分項目 Additional Information</div>
-       <ul>
-        <li>Toeic測驗 820分 (20170409試)</li>
-        <li>日檢JLPT N2 102分</li>
-        <li>客語初級檢定</li>
-        <li>北科大親善大使服務 100 hr證書</li>
-      </ul>
-    </div>
 	 
   </div>
 </div>
